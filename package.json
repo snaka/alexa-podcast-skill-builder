@@ -1,6 +1,6 @@
 {
   "name": "alexa-podcast-skill-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create Podcast Skill for Alexa easily.",
   "main": "index.js",
   "repository": "git@github.com:snaka/alexa-podcast-skill-builder.git",
