@@ -30,8 +30,18 @@ exports.handler = skillBuilder.build(dynamoDBAdapter)
 
 ## Model
 
+(TBD)
 
 ## Use case
 
-* [snaka/skill-backspace.fm](https://github.com/snaka/skill-backspace.fm)
-* [snaka/skill-tcfm-player](https://github.com/snaka/skill-tcfm-player)
+<a align="left" href="https://www.amazon.co.jp/dp/B07H294SKT">
+  <img src="https://i.gyazo.com/eb9dfc6204ec1eba315a83738e733bf9.png">
+</a>
+<a href="https://github.com/snaka/skill-backspace.fm">snaka/skill-backspace.fm</a>
+<br>
+
+<a align="left" href="https://www.amazon.co.jp/dp/B07GJSG572">
+  <img src="https://i.gyazo.com/ab7444f6d2ece6a2bb745818e8a746a1.png">
+</a>
+<a href="https://github.com/snaka/skill-tcfm-player">snaka/skill-tcfm-player</a>
+<br>
