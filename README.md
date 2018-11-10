@@ -24,6 +24,11 @@ const skillBuilder = new PodcastSkillBuilder({
 exports.handler = skillBuilder.build(dynamoDBAdapter)
 ```
 
+## Supported Intents
+
+(TBD)
+
+## Model
 
 
 ## Use case
