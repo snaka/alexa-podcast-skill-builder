@@ -1,27 +1,27 @@
 # Javascript Node CircleCI 2.0 configuration file
-#
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
 version: 2
 jobs:
   build:
     docker:
       - image: circleci/node:8.10
+    working_directory: ~/repo
     steps:
-      - checkout
-      - run:
-          name: Update npm
-          command: "sudo npm install -g npm@latest"
+      - checkout:
+          path: ~/repo
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-
       - run:
           name: Install npm
-          command: "npm install"
+          command: npm install
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: "./node_modules/.bin/eslint ."
+      - run:
+          name: run test
+          command: "./node_modules/.bin/eslint ."
       # run tests!
       # - run: yarn test
