@@ -2,7 +2,6 @@
 
 [![CircleCI](https://circleci.com/gh/snaka/alexa-podcast-skill-builder.svg?style=svg)](https://circleci.com/gh/snaka/alexa-podcast-skill-builder)
 
-
 Create Podcast Skill for Alexa easily.
 
 <img src=https://user-images.githubusercontent.com/19329/48243121-f3caad80-e421-11e8-95a0-f06881ec1a84.png>
