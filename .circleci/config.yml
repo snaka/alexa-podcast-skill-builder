@@ -21,7 +21,8 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       - run:
-          name: run test
+          name: run lint
           command: "./node_modules/.bin/eslint ."
-      # run tests!
-      # - run: yarn test
+      - run:
+          name: run test
+          command: npm test
