@@ -4,7 +4,8 @@
   "description": "Create Podcast Skill for Alexa easily.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "test": "DISABLE_XRAY=true mocha"
   },
   "repository": "git@github.com:snaka/alexa-podcast-skill-builder.git",
   "author": "snaka <snaka.gml@gmail.com>",
