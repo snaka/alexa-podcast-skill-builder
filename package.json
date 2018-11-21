@@ -1,6 +1,6 @@
 {
   "name": "alexa-podcast-skill-builder",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create Podcast Skill for Alexa easily.",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,10 @@
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^5.2.0",
     "nock": "^10.0.2"
-  }
+  },
+  "keywords": [
+    "alexa",
+    "alexa-skill",
+    "podcast"
+  ]
 }
