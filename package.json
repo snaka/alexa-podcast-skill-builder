@@ -1,6 +1,6 @@
 {
   "name": "alexa-podcast-skill-builder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create Podcast Skill for Alexa easily.",
   "main": "index.js",
   "scripts": {
