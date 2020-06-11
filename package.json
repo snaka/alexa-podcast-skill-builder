@@ -13,7 +13,7 @@
   "dependencies": {
     "ask-sdk": "^2.3.0",
     "ask-sdk-core": "^2.3.0",
-    "aws-xray-sdk": "^2.0.1",
+    "aws-xray-sdk": "^3.0.0",
     "feedparser": "^2.2.9",
     "i18next": "^19.0.0",
     "i18next-sprintf-postprocessor": "^0.2.2",
